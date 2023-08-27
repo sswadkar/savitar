@@ -11,14 +11,15 @@ import java.util.List;
 public class Savitar {
     static boolean hadError = false;
     public static void main(String[] args) throws IOException {
-        if (args.length > 1){
-            System.out.println("Usage: savitr [script].stv");
-            System.exit(64);
-        } else if (args.length == 1){
-            runFile(args[0]);
-        } else {
-            runPrompt();
-        }
+        runFile("/Users/swadkar/personal/savitar/src/main/java/com/savitar/test.stv");
+//        if (args.length > 1){
+//            System.out.println("Usage: savitr [script].stv");
+//            System.exit(64);
+//        } else if (args.length == 1){
+//            runFile(args[0]);
+//        } else {
+//            runPrompt();
+//       }
 
     }
 
